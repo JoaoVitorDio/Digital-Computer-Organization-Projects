@@ -1,4 +1,4 @@
-## O que e o que contém este repositório?
+## O que é o que contém este repositório?
 
 Esse diretório contém os arquivos envolvidos no simulador do [ICMC-Processor][ICMC-Processor] apresentado na disciplina. Os arquivos na pasta assembler_source são respectivos ao montador que reconhece um código em assembly e gera o arquivo executável (.mif) a ser lido pelo simulador/processador. Os arquivos no diretório principal são o código do simple_simulator.c com as alterações feitas para a nossa função (NAND) e o código em assembly nand.asm, que é um código de teste para a nossa função. 
 
