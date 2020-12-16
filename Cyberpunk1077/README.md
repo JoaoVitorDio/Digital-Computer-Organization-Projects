@@ -1,4 +1,4 @@
-O arquivo Cyber_Punk_1077.asm contém o nosso jogo em Assembly. É um jogo desenvolvido no estilo "arte com carácteres" na temática de um personagem que desvia de obstáculos. Para jogar, utilizamos o [Simulador][https://github.com/simoesusp/Processador-ICMC/tree/master/Install_Packages] apresentado durante a disciplina.
+O arquivo Cyber_Punk_1077.asm contém o nosso jogo em Assembly. É um jogo desenvolvido no estilo "arte com caracteres" na temática de um personagem que desvia de obstáculos. Para jogar, utilizamos o [Simulador][https://github.com/simoesusp/Processador-ICMC/tree/master/Install_Packages] apresentado durante a disciplina.
 
 ### Menu principal
 ![MenuJogo](https://user-images.githubusercontent.com/60077147/102287728-ca8e7c80-3f19-11eb-9906-53ff21d60648.png)
