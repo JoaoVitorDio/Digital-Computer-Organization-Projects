@@ -17,7 +17,7 @@ O objetivo é ir o mais longe possível no jogo, desviando dos obstáculos na pi
 ### Como funciona? Posso jogar?
 Gravamos também um [vídeo][vídeo] apresentando o jogo, jogando ele e algumas opções de implementação! Dá uma conferida :wink:
 
-Já caso queira realmente jogar... utilizamos o simulador cujo link referente está acima. Instruções sobre sua utilização são encontradas no repositório do simulador, mas resumidamente (para windows), basta "dezipar" o arquivo simulador_todo_pronto_facil, colocar o arquivo do nosso jogo nesse diretório, abrir o arquivo sublimetext.exe no subdiretório simulador, selecionar a opção "open file" no canto superior esquerdo, voltar uma pasta atrás da atual e abrir o arquivo do jogo no sublime. Então, basta apertar F7, seguida da tecla Home, e jogar!
+Já caso queira realmente jogar... utilizamos o simulador cujo link referente está acima. Instruções sobre sua utilização são encontradas no repositório do simulador, mas resumidamente (para windows), basta "dezipar" o arquivo simulador_todo_pronto_facil, colocar o arquivo do nosso jogo na pasta "simulador", abrir o arquivo sublimetext.exe no subdiretório simulador, selecionar a opção "open file" no canto superior esquerdo, voltar uma pasta atrás da atual e abrir o arquivo do jogo no sublime. Então, basta apertar F7, seguida da tecla Home, e jogar!
 
 ### Por fim...
 
