@@ -8,7 +8,8 @@ In the simple_simulator.c file, we also added the macros and internal codes, as 
 
 
 ### How it works?
-We recorded a [video][video] presenting the implementation and functioning of the function, as well as the test case execution and the process of compiling the files!
+We recorded a [video][video] presenting the implementation and functioning of the function, as well as the test case execution and the process of compiling the files! 
+(Obs: Video recorded in Brazilian Portuguese)
 
 [https://github.com/simoesusp/Processor-ICMC/tree/master/Install_Packages]: https://github.com/simoesusp/Processor-ICMC/tree/master/Install_Packages "simulator"
 
