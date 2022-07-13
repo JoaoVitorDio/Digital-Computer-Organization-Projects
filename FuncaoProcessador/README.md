@@ -1,16 +1,16 @@
-## O que é o que contém este repositório?
+## What does this repository contain?
 
-Esse diretório contém os arquivos envolvidos no simulador do [ICMC-Processor][ICMC-Processor] apresentado na disciplina. Os arquivos na pasta assembler_source são respectivos ao montador que reconhece um código em assembly e gera o arquivo executável (.mif) a ser lido pelo simulador/processador. Os arquivos no diretório principal são o código do simple_simulator.c com as alterações feitas para a nossa função (NAND) e o código em assembly nand.asm, que é um código de teste para a nossa função. 
+This directory contains the files involved in the [ICMC-Processor][ICMC-Processor] simulator presented in the course. The files in the assembler_source folder belong to the assembler that recognizes an assembly code and generates the executable file (.mif) to be read by the simulator/processor. The files in the main directory are the simple_simulator.c code with some changes to implement a NAND function, and the assembly code nand.asm, which is test code for our function.
 
-Nos arquivos do montador, alteramos os arquivos defs.h e montador.c. Em defs.h, definimos as macros e definições de pré-compilação para que o montador reconheça a função no código assembly e gere o código binário a ser lido pelo processador. Em montador.c, adicionamos a função geradora do binário respectivo à nossa instrução e suas respectivas chamadas.
+In the assembler files, we changed the defs.h and assembler.c files. In defs.h, we define the precompilation macros and definitions so that the assembler recognizes the function in the assembly code and generates the binary code to be read by the processor. In assembler.c, we add the respective binary generator function to our instruction and its respective calls.
 
-No arquivo simple_simulator.c, adicionamos também as macros e códigos internas, assim como, o código que será lido do arquivo em binário para que o processador interprete a instrução e chame a devida função para processá-la. Sendo assim, adicionamos as operações necessárias para a nossa função que envolveram receber dados da instrução e enviar à ULA, e adicionar a função de execução de uma NAND na ULA, que foi implementada usando o operador & da linguagem C e strings de caracteres.
+In the simple_simulator.c file, we also added the macros and internal codes, as well as the code that will be read from the binary file so that the processor interprets the instruction and calls the appropriate function to process it. Therefore, we added the necessary operations to our function that involved receiving data from the instruction and sending it to the ALU, and adding the function of executing a NAND in the ALU, which was implemented using the C language operator '&' and character strings.
 
 
-### Como funciona?
-Gravamos um [vídeo][vídeo] apresentando a implementação e o funcionamento da função, assim como a execução do caso de teste e o processo de compilação dos arquivos!
+### How it works?
+We recorded a [video][video] presenting the implementation and functioning of the function, as well as the test case execution and the process of compiling the files!
 
-[https://github.com/simoesusp/Processador-ICMC/tree/master/Install_Packages]: https://github.com/simoesusp/Processador-ICMC/tree/master/Install_Packages "simulador"
+[https://github.com/simoesusp/Processor-ICMC/tree/master/Install_Packages]: https://github.com/simoesusp/Processor-ICMC/tree/master/Install_Packages "simulator"
 
-[ICMC-Processor]: https://github.com/simoesusp/Processador-ICMC "ICMC-Processor"
-[vídeo]: https://drive.google.com/file/d/1ORQKMYAB4Q88BPHukgZQn1Gf38nmtbKs/view?usp=sharing "vídeo"
+[ICMC-Processor]: https://github.com/simoesusp/Processor-ICMC "ICMC-Processor"
+[video]: https://drive.google.com/file/d/1ORQKMYAB4Q88BPHukgZQn1Gf38nmtbKs/view?usp=sharing "video"
