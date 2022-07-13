@@ -1,4 +1,4 @@
-# Projects from Digital Computer Organization discipline - Game in Assembly and Function for the processor simulator :mortar_board: :mortar_board:
+# Projects from Digital Computer Organization discipline - Game in Assembly and Function for the processor simulator
 
 ### What is this repository?
 
